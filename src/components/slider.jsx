@@ -11,8 +11,8 @@ export default function SliderSyncing() {
     <div className="slider-container">
       <Slider asNavFor={nav2} ref={(slider1) => setNav1(slider1)}>
         <div>
-          <div  style={{position:"absolute"}}>
-            <div className="title" ><h1 style={{fontWeight:"bold !important"}}> John Wick  <br /> chapter 4</h1></div>
+          <div  style={{position:"absolute", color:"white",fontWeight:"bolder"}}>
+            <div className="title" ><h1 style={{fontWeight:"bolder"}} > John Wick  <br /> chapter 4</h1></div>
             <div style={{display:"flex"}}><div class="rating">
   <span class="fa fa-star checked"></span>
   <span class="fa fa-star checked"></span>
@@ -36,17 +36,73 @@ export default function SliderSyncing() {
 background:"red", color:"white",borderRadius:"10px"}} to="/Play" >Play Now</Link>
             <Link style={{textDecoration: "none",fontWeight:"bold",padding:"1px 10px",
 background:"white", color:"red",borderRadius:"10px"}}>More Information</Link>
- <h1>Top 6 movies Today</h1>
+ <h1 style={{fontWeight:"bolder"}}>Top 6 movies Today</h1>
           </div>
                          
 
           <img style={{width:"100%",height:"600px", overflow:"hidden"}} src="/images/sliderIMG1.png" alt="" />
         </div>
         <div>
-        <div><img style={{width:"100%",height:"600px", overflow:"hidden"}} src="/images/sliderIMG2.jpg" alt="" /></div> 
+        <div>
+          <div   style={{position:"absolute", color:"white",fontWeight:"bolder"}}>
+            <div className="title" ><h1 style={{fontWeight:"bolder"}}> John Wick  <br /> chapter 4</h1></div>
+            <div style={{display:"flex"}}><div class="rating">
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+</div>
+<div>
+  <span class="genre">Action</span>
+  <span class="separator">|</span>
+  <span class="genre">Crime</span>
+  <span class="separator">|</span>
+  <span class="genre">Thriller</span>
+</div>
+</div>
+            
+<p style={{width:"20%"}}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est enim unde pariatur in aut, tempora cumque laboriosam quam nobis corrupti ratione sed quia, iusto rerum temporibus repellendus ea facere minima?</p>
+
+            
+            <Link style={{textDecoration: "none",padding:"1px 10px",fontWeight:"bold",
+background:"red", color:"white",borderRadius:"10px"}} to="/Play" >Play Now</Link>
+            <Link style={{textDecoration: "none",fontWeight:"bold",padding:"1px 10px",
+background:"white", color:"red",borderRadius:"10px"}}>More Information</Link>
+ <h1 style={{fontWeight:"bolder"}}>Top 6 movies Today</h1>
+          </div>
+          <img style={{width:"100%",height:"600px", overflow:"hidden"}} src="/images/sliderIMG2.jpg" alt="" /></div> 
         </div>
         <div>
-          <div><img style={{width:"100%",height:"600px", overflow:"hidden"}} src="/images/sliderIMG3.png" alt="" /></div> 
+          <div>
+            <div  style={{position:"absolute", color:"white",fontWeight:"bolder"}}>
+            <div className="title" ><h1 style={{fontWeight:"bolder"}}> John Wick  <br /> chapter 4</h1></div>
+            <div style={{display:"flex"}}><div class="rating">
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+</div>
+<div>
+  <span class="genre">Action</span>
+  <span class="separator">|</span>
+  <span class="genre">Crime</span>
+  <span class="separator">|</span>
+  <span class="genre">Thriller</span>
+</div>
+</div>
+            
+<p style={{width:"20%"}}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est enim unde pariatur in aut, tempora cumque laboriosam quam nobis corrupti ratione sed quia, iusto rerum temporibus repellendus ea facere minima?</p>
+
+            
+            <Link style={{textDecoration: "none",padding:"1px 10px",fontWeight:"bold",
+background:"red", color:"white",borderRadius:"10px"}} to="/Play" >Play Now</Link>
+            <Link style={{textDecoration: "none",fontWeight:"bold",padding:"1px 10px",
+background:"white", color:"red",borderRadius:"10px"}}>More Information</Link>
+ <h1 style={{fontWeight:"bolder"}}>Top 6 movies Today</h1>
+          </div>
+            <img style={{width:"100%",height:"600px", overflow:"hidden"}} src="/images/sliderIMG3.png" alt="" /></div> 
         </div>
         <div>
           <h3>4</h3>

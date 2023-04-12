@@ -3,6 +3,8 @@
 import React, { useState } from "react";
 import SearchBar from "./searchBar";
 import "../../src/styles/home.css";
+import { NavLink } from "react-router-dom";
+
 
 const Navigation = () => {
 
@@ -15,7 +17,7 @@ const Navigation = () => {
     >
       <nav className="navbar navbar-expand-lg ">
               <div className="container">
-<img 
+                 <NavLink className="nav-link" to="/"><img 
             style={{
               marginRight:"auto",
               backgroundColor: "white",
@@ -26,6 +28,8 @@ const Navigation = () => {
             src="/images/logo.png"
             alt=""
           />
+                </NavLink>
+
        <button
   className="navbar-toggler"
   type="button"
@@ -78,9 +82,12 @@ const Navigation = () => {
 <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarNav">
   <ul className="navbar-nav ml-auto">
         
-        <li className="nav-item">TV shows</li>
+        <li className="nav-item"> <NavLink className="nav-link" to="/NotFound">
+                  TV shows
+                </NavLink></li>
         
-        <li className="nav-item" >Movies</li>
+        <li className="nav-item" > <NavLink className="nav-link" to="/NotFound">
+               Movies </NavLink></li>
        
         <li className="nav-item">
           <SearchBar />
