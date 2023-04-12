@@ -4,10 +4,9 @@ import './index.css';
 import { BrowserRouter as Router, Route, Routes } from 
 "react-router-dom";
 import Home from './components/home';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import VideoPlayer from './components/videoPlayer';
-import Player from './components/player';
+
+import { Play } from './components';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +14,10 @@ root.render(
     <Router>
     <Routes>
       <Route path="/" element={<Home/>} />
-            <Route path="/video" element={<Player/>} />
+            <Route path="/Play" element={<Play/>} />
+
+
+
 
        </Routes>
   </Router>

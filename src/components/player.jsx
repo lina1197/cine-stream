@@ -16,7 +16,6 @@ const Player = () => {
 
   return (
     <div>
-                <Navigation/>
 
       <video
         onTimeUpdate={handleProgress}
