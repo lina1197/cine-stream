@@ -6,14 +6,15 @@ import { BrowserRouter as Router, Route, Routes } from
 import Home from './components/home';
 import reportWebVitals from './reportWebVitals';
 
-import { Play } from './components';
+import { HomePage, Play } from './components';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
     <Routes>
-      <Route path="/" element={<Home/>} />
+      <Route path="/" element={<HomePage/>} />
+      {/* <Route path="/" element={<Home/>} /> */}
             <Route path="/Play" element={<Play/>} />
 
 
