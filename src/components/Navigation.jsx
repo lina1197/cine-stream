@@ -1,29 +1,23 @@
 
 
-import React from "react";
+import React, { useState } from "react";
 import SearchBar from "./searchBar";
 import "../../src/styles/home.css";
 
 const Navigation = () => {
 
+  const [isNavCollapsed, setIsNavCollapsed] = useState(true);
 
+  const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
   return (
+    
     <div className="Navigation" 
     >
-      <ul
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "flex-end",
-          listStyle: "none",
-          margin:"0px",
-        
-          fontWeight: "bold",
-        }}
-      >
-        <li style={{ marginRight: "auto" }}>
-          <img
+      <nav className="navbar navbar-expand-lg ">
+              <div className="container">
+<img 
             style={{
+              marginRight:"auto",
               backgroundColor: "white",
               borderRadius: "50%",
               boxShadow: "0 2px 4px rgba(0, 0, 0, 0.4)",
@@ -32,14 +26,69 @@ const Navigation = () => {
             src="/images/logo.png"
             alt=""
           />
-        </li>
-        <li style={{ marginRight: "10px" }}>TV shows</li>
-        <li style={{ marginRight: "10px" }}>Movies</li>
-        <li style={{ marginRight: "auto" }}>
+       <button
+  className="navbar-toggler"
+  type="button"
+  data-toggle="collapse"
+  data-target="#navbarNav"
+  aria-controls="navbarNav"
+  aria-expanded={!isNavCollapsed ? true : false}
+  aria-label="Toggle navigation"
+  onClick={handleNavCollapse}
+  style={{
+    border: "none",
+    backgroundColor: "transparent",
+    outline: "none",
+    height:"30px",
+    lineHeight:"30px",
+  }}
+>
+  <span
+    className="navbar-toggler-icon"
+    style={{
+      display: "block",
+      width: "1.2em",
+      height: "2.5px",
+      margin: "0.15em auto",
+      background: "black"
+    }}
+  ></span>
+  <span
+    className="navbar-toggler-icon"
+    style={{
+      display: "block",
+      width: "1.2em",
+      height: "2.5px",
+      margin: "0.15em auto",
+      background: "black"
+    }}
+  ></span>
+  <span
+    className="navbar-toggler-icon"
+    style={{
+      display: "block",
+      width: "1.2em",
+      height: "2.5px",
+      margin: "0.15em auto",
+      background: "black"
+    }}
+  ></span>
+</button>
+
+<div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarNav">
+  <ul className="navbar-nav ml-auto">
+        
+        <li className="nav-item">TV shows</li>
+        
+        <li className="nav-item" >Movies</li>
+       
+        <li className="nav-item">
           <SearchBar />
         </li>
        
-      </ul>
+      </ul></div>
+    </div>
+    </nav>
     </div>
   );
 };

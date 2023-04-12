@@ -3,14 +3,14 @@ import Player from "./player";
 import Navigation from "./Navigation";
 import Footer from "./footer";
 import DarkMode from "./darkMode";
-import CommentSection from "./CommentSection";
+import CommentBox from "./CommentBox";
 const Play = () => {
   return (
     <div>
         <Navigation/>
         <DarkMode/>
  <Player />
- <CommentSection/>
+ <CommentBox/>
  <Footer/>      
     </div>
   );

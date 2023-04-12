@@ -33,7 +33,7 @@ export default function SliderSyncing() {
 
             
             <Link style={{textDecoration: "none",padding:"1px 10px",fontWeight:"bold",
-background:"red", color:"white",borderRadius:"10px"}} to="/View" >Play Now</Link>
+background:"red", color:"white",borderRadius:"10px"}} to="/Play" >Play Now</Link>
             <Link style={{textDecoration: "none",fontWeight:"bold",padding:"1px 10px",
 background:"white", color:"red",borderRadius:"10px"}}>More Information</Link>
  <h1>Top 6 movies Today</h1>

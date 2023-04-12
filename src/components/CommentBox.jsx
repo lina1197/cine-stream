@@ -1,7 +1,7 @@
 import "../../src/styles/home.css";
 import React, { useState } from 'react';
 
-const CommentSection = () => {
+const CommentBox = () => {
   const [comments, setComments] = useState([]);
   const [author, setAuthor] = useState('');
   const [comment, setComment] = useState('');
@@ -53,4 +53,4 @@ const CommentSection = () => {
   );
 };
 
-export default CommentSection;
+export default CommentBox;
