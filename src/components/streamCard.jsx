@@ -11,8 +11,8 @@ const StreamCard = ({ stream }) => {
   return (
     <div className={`card ${flipped ? 'flipped' : ''}`} onClick={handleFlip}>
       <div className="front">
-        <img style={{height:"150px",width:"280px",padding:"5px",boxShadow:" box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4)",borderRadius:"20px"}} src={stream.poster} alt={stream.title} />
-        <h3 style={{textAlign:"center",marginLeft:"5px"}}>{stream.title}</h3>
+        <img  src={stream.poster} alt={stream.title} />
+        <h5 style={{textAlign:"center",marginLeft:"5px"}}>{stream.title}</h5>
         <div style={{textAlign:"center",marginLeft:"5px"}} class="rating">
   <span class="fa fa-star checked"></span>
   <span class="fa fa-star checked"></span>
