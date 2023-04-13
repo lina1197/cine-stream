@@ -4,7 +4,7 @@ import './index.css';
 import { BrowserRouter as Router, Route, Routes } from 
 "react-router-dom";
 import reportWebVitals from './reportWebVitals';
-import { HomePage, Play } from './components';
+import { HomePage, Movies, Play, TvShows } from './components';
 import NotFound from './components/NotFound';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,6 +15,8 @@ root.render(
       <Route path="/" element={<HomePage/>} />
      
             <Route path="/Play" element={<Play/>} />
+            <Route path="/Movies" element={<Movies/>} />
+            <Route path="/TvShows" element={<TvShows/>} />
             <Route path='*' element={<NotFound />}/>
 
 

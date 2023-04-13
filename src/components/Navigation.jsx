@@ -82,11 +82,11 @@ const Navigation = () => {
 <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarNav">
   <ul className="navbar-nav ml-auto">
         
-        <li className="nav-item"> <NavLink className="nav-link" to="/NotFound">
+        <li className="nav-item"> <NavLink className="nav-link" to="/TvShows">
                   TV shows
                 </NavLink></li>
         
-        <li className="nav-item" > <NavLink className="nav-link" to="/NotFound">
+        <li className="nav-item" > <NavLink className="nav-link" to="/Movies">
                Movies </NavLink></li>
        
         <li className="nav-item">

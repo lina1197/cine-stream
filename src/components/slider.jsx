@@ -35,7 +35,7 @@ export default function SliderSyncing() {
             <Link style={{textDecoration: "none",padding:"1px 10px",fontWeight:"bold",
 background:"red", color:"white",borderRadius:"10px"}} to="/Play" >Play Now</Link>
             <Link style={{textDecoration: "none",fontWeight:"bold",padding:"1px 10px",
-background:"white", color:"red",borderRadius:"10px"}}>More Information</Link>
+background:"white", color:"red",borderRadius:"10px"}} to="/*">More Information</Link>
  <h1 style={{fontWeight:"bolder"}}>Popular Today:</h1>
           </div>
                          
@@ -45,7 +45,7 @@ background:"white", color:"red",borderRadius:"10px"}}>More Information</Link>
         <div>
         <div>
           <div   style={{position:"absolute", color:"white",fontWeight:"bolder"}}>
-            <div className="title" ><h1 style={{fontWeight:"bolder"}}> John Wick  <br /> chapter 4</h1></div>
+            <div className="title" ><h1 style={{fontWeight:"bolder"}}> Avatar:  <br /> The Way of Water</h1></div>
             <div style={{display:"flex"}}><div class="rating">
   <span class="fa fa-star checked"></span>
   <span class="fa fa-star checked"></span>
@@ -54,11 +54,11 @@ background:"white", color:"red",borderRadius:"10px"}}>More Information</Link>
   <span class="fa fa-star checked"></span>
 </div>
 <div>
+  <span class="genre">Science fiction</span>
+  <span class="separator">|</span>
   <span class="genre">Action</span>
   <span class="separator">|</span>
-  <span class="genre">Crime</span>
-  <span class="separator">|</span>
-  <span class="genre">Thriller</span>
+  <span class="genre">Adventure</span>
 </div>
 </div>
             
@@ -68,7 +68,7 @@ background:"white", color:"red",borderRadius:"10px"}}>More Information</Link>
             <Link style={{textDecoration: "none",padding:"1px 10px",fontWeight:"bold",
 background:"red", color:"white",borderRadius:"10px"}} to="/Play" >Play Now</Link>
             <Link style={{textDecoration: "none",fontWeight:"bold",padding:"1px 10px",
-background:"white", color:"red",borderRadius:"10px"}}>More Information</Link>
+background:"white", color:"red",borderRadius:"10px"}} to="/*">More Information</Link>
  <h1 style={{fontWeight:"bolder"}}>Popular Today:</h1>
           </div>
           <img style={{width:"100%",height:"600px", overflow:"hidden"}} src="/images/sliderIMG2.jpg" alt="" /></div> 
@@ -76,7 +76,7 @@ background:"white", color:"red",borderRadius:"10px"}}>More Information</Link>
         <div>
           <div>
             <div  style={{position:"absolute", color:"white",fontWeight:"bolder"}}>
-            <div className="title" ><h1 style={{fontWeight:"bolder"}}> John Wick  <br /> chapter 4</h1></div>
+            <div className="title" ><h1 style={{fontWeight:"bolder"}}> Dungeons and Dragons:  <br /> Honor Amongst Thieves</h1></div>
             <div style={{display:"flex"}}><div class="rating">
   <span class="fa fa-star checked"></span>
   <span class="fa fa-star checked"></span>
@@ -87,9 +87,9 @@ background:"white", color:"red",borderRadius:"10px"}}>More Information</Link>
 <div>
   <span class="genre">Action</span>
   <span class="separator">|</span>
-  <span class="genre">Crime</span>
+  <span class="genre">Adventure</span>
   <span class="separator">|</span>
-  <span class="genre">Thriller</span>
+  <span class="genre">Fantasy</span>
 </div>
 </div>
             
@@ -99,7 +99,7 @@ background:"white", color:"red",borderRadius:"10px"}}>More Information</Link>
             <Link style={{textDecoration: "none",padding:"1px 10px",fontWeight:"bold",
 background:"red", color:"white",borderRadius:"10px"}} to="/Play" >Play Now</Link>
             <Link style={{textDecoration: "none",fontWeight:"bold",padding:"1px 10px",
-background:"white", color:"red",borderRadius:"10px"}}>More Information</Link>
+background:"white", color:"red",borderRadius:"10px"}} to="/*">More Information</Link>
  <h1 style={{fontWeight:"bolder"}}>Popular Today:</h1>
           </div>
             <img style={{width:"100%",height:"600px", overflow:"hidden"}} src="/images/sliderIMG3.png" alt="" /></div> 
