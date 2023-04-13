@@ -36,7 +36,7 @@ export default function SliderSyncing() {
 background:"red", color:"white",borderRadius:"10px"}} to="/Play" >Play Now</Link>
             <Link style={{textDecoration: "none",fontWeight:"bold",padding:"1px 10px",
 background:"white", color:"red",borderRadius:"10px"}}>More Information</Link>
- <h1 style={{fontWeight:"bolder"}}>Top 6 movies Today</h1>
+ <h1 style={{fontWeight:"bolder"}}>Popular Today:</h1>
           </div>
                          
 
@@ -69,7 +69,7 @@ background:"white", color:"red",borderRadius:"10px"}}>More Information</Link>
 background:"red", color:"white",borderRadius:"10px"}} to="/Play" >Play Now</Link>
             <Link style={{textDecoration: "none",fontWeight:"bold",padding:"1px 10px",
 background:"white", color:"red",borderRadius:"10px"}}>More Information</Link>
- <h1 style={{fontWeight:"bolder"}}>Top 6 movies Today</h1>
+ <h1 style={{fontWeight:"bolder"}}>Popular Today:</h1>
           </div>
           <img style={{width:"100%",height:"600px", overflow:"hidden"}} src="/images/sliderIMG2.jpg" alt="" /></div> 
         </div>
@@ -100,7 +100,7 @@ background:"white", color:"red",borderRadius:"10px"}}>More Information</Link>
 background:"red", color:"white",borderRadius:"10px"}} to="/Play" >Play Now</Link>
             <Link style={{textDecoration: "none",fontWeight:"bold",padding:"1px 10px",
 background:"white", color:"red",borderRadius:"10px"}}>More Information</Link>
- <h1 style={{fontWeight:"bolder"}}>Top 6 movies Today</h1>
+ <h1 style={{fontWeight:"bolder"}}>Popular Today:</h1>
           </div>
             <img style={{width:"100%",height:"600px", overflow:"hidden"}} src="/images/sliderIMG3.png" alt="" /></div> 
         </div>

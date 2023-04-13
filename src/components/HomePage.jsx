@@ -85,6 +85,7 @@ function HomePage() {
         />
       <DarkMode/>
       <SliderSyncing style={{ marginTop: "0" }} />  
+      <div style={{textAlign:"center",fontWeight:"bolder"}}><h1 style={{fontWeight:"bolder"}}>Our selection:</h1></div>
        <div className="stream-grid">
       {streamData.map((stream) => (
         <StreamCard key={stream.title} stream={stream} />
